@@ -88,3 +88,11 @@ button {
 button:hover {
     background: #0056b3;
 }
+
+
+/* R Icon styling */
+.r-icon {
+    width: 60px; /* Adjust the width as needed */
+    height: auto; /* Maintains aspect ratio */
+    margin-top: 5px;
+}
