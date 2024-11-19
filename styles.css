@@ -1,45 +1,42 @@
-/* General page styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f8f9fa;
     margin: 0;
     padding: 0;
 }
 
-/* Header section styling */
 header {
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
+    background: #306998;
+    color: #FFD43B;
+    padding: 20px 0;
     text-align: center;
 }
 
-/* Styling for team logo image */
 .team-logo {
-    width: 150px; /* Adjust the size as needed */
+    width: 150px;
     margin-top: 10px;
+    border-radius: 8px;
 }
 
-/* Menu button styling */
 header nav {
     margin-top: 10px;
 }
 
 header nav button {
-    background: #007BFF;
-    color: white;
-    border: none;
+    background: #FFD43B;
+    color: #306998;
+    border: 2px solid #306998;
     padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
     margin: 0 5px;
+    font-weight: bold;
 }
 
 header nav button:hover {
-    background: #0056b3;
+    background: #FFE066;
 }
 
-/* Flex container for team bios and vision sections */
 .container {
     width: 80%;
     margin: 20px auto;
@@ -48,10 +45,10 @@ header nav button:hover {
     justify-content: space-between;
 }
 
-/* Card styling for individual team bios */
 .card {
     background: white;
     border-radius: 8px;
+    border: 1px solid #d6d6d6;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin: 10px;
     padding: 20px;
@@ -62,37 +59,51 @@ header nav button:hover {
 
 .card:hover {
     transform: scale(1.05);
+    border-color: #FFD43B;
 }
 
 h2 {
     margin: 0 0 10px;
+    color: #306998;
 }
 
-/* Initially hide bio details */
 .bio {
     display: none;
     margin-top: 10px;
     color: #555;
 }
 
-/* Button styling */
 button {
-    background: #007BFF;
+    background: #306998;
     color: white;
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 button:hover {
-    background: #0056b3;
+    background: #25557D;
 }
 
-
-/* R Icon styling */
 .r-icon {
-    width: 60px; /* Adjust the width as needed */
-    height: auto; /* Maintains aspect ratio */
+    width: 60px;
+    height: auto;
     margin-top: 5px;
+}
+
+.moodboard {
+    margin-top: 20px;
+    border-top: 2px solid #FFD43B;
+    padding-top: 10px;
+}
+
+.avatar {
+    width: 150px; /* Adjust the size to make it smaller */
+    height: 150px; /* Ensures the image is a square */
+    object-fit: cover; /* Ensures the image scales properly within the square */
+    border-radius: 10px; /* Slight rounding for a clean look */
+    margin: 10px auto; /* Centers the image within the card */
+    display: block; /* Ensures proper centering */
 }
